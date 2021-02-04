@@ -22,7 +22,7 @@ class ___VARIABLE_viperModuleName___TableHeaderFooterViewModel: TableHeaderFoote
     // MARK: - Init
     
     // MARK: - Handler
-    typealias ActionHandler = (_ view: ___VARIABLE_viperModuleName___TableHeaderFooterView, _ model: ___VARIABLE_viperModuleName___TableHeaderFooterViewModel, action: Action) -> Void
+    typealias ActionHandler = (Action, ___VARIABLE_viperModuleName___TableHeaderFooterViewModel, ___VARIABLE_viperModuleName___TableHeaderFooterView) -> Void
     
     enum Action {}
     

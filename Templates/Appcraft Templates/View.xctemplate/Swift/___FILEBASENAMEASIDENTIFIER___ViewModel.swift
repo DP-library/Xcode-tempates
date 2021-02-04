@@ -14,7 +14,7 @@ struct ___VARIABLE_viperModuleName___ViewModel {
     // MARK: - Props
     
     // MARK: - Handler
-    typealias ActionHandler = (_ view: ___VARIABLE_viperModuleName___View, model: ___VARIABLE_viperModuleName___ViewModel, _ action: Action) -> Void
+    typealias ActionHandler = (Action, ___VARIABLE_viperModuleName___ViewModel, ___VARIABLE_viperModuleName___View) -> Void
     
     enum Action {}
     
