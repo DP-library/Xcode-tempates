@@ -21,7 +21,7 @@ class ___VARIABLE_viperModuleName___CollectionCellModel: CollectionCellModel {
     // MARK: - Init
     
     // MARK: - Handler
-    typealias ActionHandler = (Action, ___VARIABLE_viperModuleName___CollectionCellModel, ___VARIABLE_viperModuleName___CollectionCell) -> Void
+    typealias ActionHandler = (Action, ___VARIABLE_viperModuleName___CollectionCell) -> Void
     
     enum Action {}
     
