@@ -11,9 +11,9 @@ import GKRepresentable
 
 class ___VARIABLE_viperModuleName___TableCell: TableCell {
 
-    // MARK: - Outlet
+    // MARK: - Props
 
-    // MARK: - Override
+    // MARK: - Setup
     override func setHighlighted(_ highlighted: Bool, animated: Bool) {
         return
     }

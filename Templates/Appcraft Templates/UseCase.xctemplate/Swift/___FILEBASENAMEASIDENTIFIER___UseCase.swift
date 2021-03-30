@@ -12,7 +12,7 @@ import GKUseCase
 protocol ___VARIABLE_viperModuleName___UseCaseInput: UseCaseInput { }
 
 protocol ___VARIABLE_viperModuleName___UseCaseOutput: UseCaseOutput {
-    func error(useCase: ___VARIABLE_viperModuleName___UseCase, error: Error?)
+    func provideError(useCase: ___VARIABLE_viperModuleName___UseCase, error: Error?)
 }
 
 class ___VARIABLE_viperModuleName___UseCase: UseCase, ___VARIABLE_viperModuleName___UseCaseInput {

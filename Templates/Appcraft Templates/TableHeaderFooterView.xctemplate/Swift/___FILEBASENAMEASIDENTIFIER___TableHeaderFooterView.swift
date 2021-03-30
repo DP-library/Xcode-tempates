@@ -11,9 +11,9 @@ import UIKit
 
 class ___VARIABLE_viperModuleName___TableHeaderFooterView: TableHeaderFooterView {
     
-    // MARK: - Outlet
+    // MARK: - Props
     
-    // MARK: - Override
+    // MARK: - Setup
     override func setupView() { }
     
     override func updateViews() {

@@ -11,19 +11,10 @@ import GKRepresentable
 
 class ___VARIABLE_viperModuleName___TableCellModel: TableCellModel {
 
-    // MARK: - Override
+    // MARK: - Props
     public override var cellIdentifier: String {
         ___VARIABLE_viperModuleName___TableCell.identifier
     }
     
-    // MARK: - Props
-    
     // MARK: - Init
-    
-    // MARK: - Handler
-    typealias ActionHandler = (Action, ___VARIABLE_viperModuleName___TableCell) -> Void
-    
-    enum Action {}
-    
-    var didAction: ActionHandler?
 }

@@ -12,20 +12,11 @@ import GKRepresentable
 
 class ___VARIABLE_viperModuleName___TableHeaderFooterViewModel: TableHeaderFooterViewModel {
     
-    // MARK: - Override
+    // MARK: - Props
     public override var viewIdentifier: String {
         ___VARIABLE_viperModuleName___TableHeaderFooterView.identifier
     }
     
-    // MARK: - Props
-    
     // MARK: - Init
-    
-    // MARK: - Handler
-    typealias ActionHandler = (Action, ___VARIABLE_viperModuleName___TableHeaderFooterView) -> Void
-    
-    enum Action {}
-    
-    var didAction: ActionHandler?
     
 }

@@ -9,15 +9,10 @@
 import Foundation
 import UIKit
 
-struct ___VARIABLE_viperModuleName___ViewModel {
+class ___VARIABLE_viperModuleName___ViewModel {
     
     // MARK: - Props
     
-    // MARK: - Handler
-    typealias ActionHandler = (Action, ___VARIABLE_viperModuleName___View) -> Void
-    
-    enum Action {}
-    
-    var didAction: ActionHandler?
+    // MARK: - Init
     
 }

@@ -11,31 +11,36 @@ import UIKit
 
 class ___VARIABLE_viperModuleName___View: UIView {
     
-    // MARK: - Outlet
+    // MARK: - Props
     @IBOutlet private weak var contentView: UIView!
     
-    // MARK: - Lifecycle
+    var model: ___VARIABLE_viperModuleName___ViewModel? {
+        didSet {
+            self.updateViews()
+        }
+    }
+    
+    // MARK: - Init
     override func awakeAfter(using aDecoder: NSCoder) -> Any? {
         self.loadFromNibIfEmbeddedInDifferentNib()
     }
 
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        self.setupViews()
     }
     
-    // MARK: - Props
-    private var model: ___VARIABLE_viperModuleName___ViewModel?
+    // MARK: - Setup
+    func setupViews() { }
     
-    // MARK: - Setup functions
-    public func setup(model: ___VARIABLE_viperModuleName___ViewModel) {
-        self.model = model
-    }
+    func updateViews() { }
     
     // MARK: - Actions
     @objc
-    private func tapButton(_ button: UIButton) {}
+    private func tapButton(_ button: UIButton) { }
     
     @objc
-    private func tapGesture(_ gesture: UITapGestureRecognizer) {}
+    private func tapGesture(_ gesture: UITapGestureRecognizer) { }
     
 }
